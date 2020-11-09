@@ -86,8 +86,8 @@ tree -L 2 ./cv-corpus
 jupyter notebook main.ipynb
 ```
 
-## Cleaning caches and TensorBoard data
+## Remove caches to free up space
 
 ```
-make clean
+rm -rv cache
 ```
